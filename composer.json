@@ -9,12 +9,18 @@
             "email": "graham@alt-three.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:RonnyLV/commonmark.git"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/contracts": "5.0.*|5.1.*",
         "illuminate/support": "5.0.*|5.1.*",
         "illuminate/view": "5.0.*|5.1.*",
-        "league/commonmark": "0.10.*"
+        "league/commonmark": "dev-master"
     },
     "require-dev": {
         "graham-campbell/testbench": "~3.0",
